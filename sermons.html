@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sermons — Our Church</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="container nav-inner">
+          <a href="index.html" class="logo">
+            <div class="logo-graphic"></div>
+            <span class="logo-text">Our Church</span>
+          </a>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="campuses.html">Campuses</a></li>
+            <li><a href="ministries.html">Ministries</a></li>
+            <li><a href="sermons.html">Sermons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section sermons">
+        <div class="container reveal">
+          <h2>Recent Sermons</h2>
+          <div class="sermon-grid">
+            <article class="sermon-card">
+              <div class="video-wrap">
+                <!-- Make sure these are embed urls; script.js will also normalize if needed -->
+                <iframe src="https://www.youtube.com/embed/SP1YsbMvpSw" title="Sermon 1" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="meta">
+                <h3>Sunday Worship</h3>
+                <p>Pastor John — Aug 3, 2025</p>
+              </div>
+            </article>
+
+            <article class="sermon-card">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="Sermon 2" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="meta">
+                <h3>Faith in Action</h3>
+                <p>Pastor Sarah — Jul 27, 2025</p>
+              </div>
+            </article>
+
+            <article class="sermon-card">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Sermon 3" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="meta">
+                <h3>Living the Word</h3>
+                <p>Pastor Mike — Jul 20, 2025</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="social">
+          <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+          <a href="#" aria-label="YouTube" class="social-link">YouTube</a>
+          <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Our Church. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

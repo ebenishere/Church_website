@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Campuses — Our Church</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="container nav-inner">
+          <a href="index.html" class="logo">
+            <div class="logo-graphic"></div>
+            <span class="logo-text">Our Church</span>
+          </a>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="campuses.html">Campuses</a></li>
+            <li><a href="ministries.html">Ministries</a></li>
+            <li><a href="sermons.html">Sermons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section campuses">
+        <div class="container reveal">
+          <h2>Campuses</h2>
+          <p class="muted">Find a campus near you and join us this Sunday.</p>
+          <div class="campus-grid">
+            <article class="campus-card">
+              <img src="assets/campus1.jpg" alt="Downtown Campus" />
+              <div class="card-body">
+                <h3>Downtown Campus</h3>
+                <p>Service Times: Sundays 9:00 AM & 11:00 AM<br />123 Main St, City</p>
+                <a class="btn outline" href="#">View Details</a>
+              </div>
+            </article>
+
+            <article class="campus-card">
+              <img src="assets/campus2.jpg" alt="Westside Campus" />
+              <div class="card-body">
+                <h3>Westside Campus</h3>
+                <p>Service Times: Sundays 10:00 AM<br />456 West Ave, City</p>
+                <a class="btn outline" href="#">View Details</a>
+              </div>
+            </article>
+
+            <article class="campus-card">
+              <img src="assets/campus3.jpg" alt="Eastside Campus" />
+              <div class="card-body">
+                <h3>Eastside Campus</h3>
+                <p>Service Times: Saturdays 6:00 PM<br />789 East Rd, City</p>
+                <a class="btn outline" href="#">View Details</a>
+              </div>
+            </article>
+
+            <article class="campus-card">
+              <img src="assets/campus4.jpg" alt="North Campus" />
+              <div class="card-body">
+                <h3>North Campus</h3>
+                <p>Service Times: Sundays 8:00 AM & 10:30 AM<br />101 North Blvd, City</p>
+                <a class="btn outline" href="#">View Details</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="social">
+          <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+          <a href="#" aria-label="YouTube" class="social-link">YouTube</a>
+          <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Our Church. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
